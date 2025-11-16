@@ -1,0 +1,17 @@
+moritamura@teradasoutanoMacBook-Air Desktop % mkdir git_challenge
+moritamura@teradasoutanoMacBook-Air Desktop % cd git_challenge
+moritamura@teradasoutanoMacBook-Air git_challenge % touch hello_world.txt
+moritamura@teradasoutanoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/moritamura/Desktop/git_challenge/.git/
+moritamura@teradasoutanoMacBook-Air git_challenge % git add hello_world.txt
+moritamura@teradasoutanoMacBook-Air git_challenge % git commit -m "Add hello_world.txt"
+[main (root-commit) 8ba2539] Add hello_world.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+moritamura@teradasoutanoMacBook-Air git_challenge % git add hello_world.txt            
+moritamura@teradasoutanoMacBook-Air git_challenge % git commit -m "Add hello_world.txt"
+[main 6a313ba] Add hello_world.txt
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+moritamura@teradasoutanoMacBook-Air git_challenge % git log --oneline
+6a313ba (HEAD -> main) Add hello_world.txt
+8ba2539 Add hello_world.txt
