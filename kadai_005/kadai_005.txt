@@ -1,0 +1,25 @@
+moritamura@teradasoutanoMacBook-Air Desktop % mkdir git_challenge                     
+moritamura@teradasoutanoMacBook-Air Desktop % cd git_challenge                     
+moritamura@teradasoutanoMacBook-Air git_challenge % git init                             
+Initialized empty Git repository in /Users/moritamura/Desktop/git_challenge/.git/
+moritamura@teradasoutanoMacBook-Air git_challenge % touch hello_world.txt                   
+moritamura@teradasoutanoMacBook-Air git_challenge % echo "Hello, world! " >> hello_world.txt
+moritamura@teradasoutanoMacBook-Air git_challenge % git add .                               
+moritamura@teradasoutanoMacBook-Air git_challenge % git commit -m "Hello, world!を追加"           
+zsh: event not found: を追加
+moritamura@teradasoutanoMacBook-Air git_challenge % git commit -m "追記"       
+[main (root-commit) 924cb2e] 追記
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+moritamura@teradasoutanoMacBook-Air git_challenge % echo "こんにちは、世界！ " >> hello_world.txt
+moritamura@teradasoutanoMacBook-Air git_challenge % git add .                                    
+moritamura@teradasoutanoMacBook-Air git_challenge % git commit -m "こんにちはを追記"             
+[main 68b138f] こんにちはを追記
+ 1 file changed, 1 insertion(+)
+moritamura@teradasoutanoMacBook-Air git_challenge % git log --oneline
+68b138f (HEAD -> main) こんにちはを追記
+924cb2e 追記
+moritamura@teradasoutanoMacBook-Air git_challenge % cd ../              
+moritamura@teradasoutanoMacBook-Air Desktop % mkdir kadai_005
+moritamura@teradasoutanoMacBook-Air Desktop % cd kadai_005
+moritamura@teradasoutanoMacBook-Air kadai_005 % touch kadai_005.txt
